@@ -1,6 +1,6 @@
 {
   "name": "abbum-viewer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,19 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaer/album-viewer.git"
+  },
+  "keywords": [
+    "album-viewer"
+  ],
+  "author": "Mustafa ER",
+  "license": "GNU GPL",
+  "bugs": {
+    "url": "https://github.com/mustafaer/album-viewer/issues"
+  },
+  "homepage": "https://github.com/mustafaer/album-viewer#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.7",
