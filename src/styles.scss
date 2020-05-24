@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/app.component";
+@import "app/components/dashboard/dashboard.component";
+@import "app/components/footer/footer.component";
+@import "app/components/header/header.component";
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  line-height: 1.2;
+  background-color: #e6e7e8;
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}

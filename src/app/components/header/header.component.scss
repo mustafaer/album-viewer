@@ -1,0 +1,26 @@
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100000000;
+  padding: 5px 16px 5px 8px;
+  background-color: #367fa9;
+  color: white;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.navbar-link {
+  padding: 7px;
+  float: left;
+  color: white !important;
+  .app-logo{
+    height: 28px;
+  }
+}
+
+.user-info {
+  color: whitesmoke !important;
+}
