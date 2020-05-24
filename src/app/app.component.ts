@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'abbum-viewer';
+  title = 'Album Viewer';
+
+  constructor() {
+    AppComponent.setLanguage();
+  }
+  static setLanguage() {
+    if (!localStorage.getItem('lang')) {
+      localStorage.setItem('lang', 'tr');
+    }
+  }
 }
