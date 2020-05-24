@@ -15,3 +15,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * `izitoast` --> for notifications
 * `bootstrap` --> for css
 * `ngx-spinner` --> for loader
+
+## Limit Data
+If you want to limit the items, you can change the count under `src/app/shared/RequestPayload.ts` with `limit` variable.
